@@ -1,10 +1,10 @@
-# 🤖 Offline Customer Support Chatbot
+# Offline Customer Support Chatbot
 
 A private, secure, and cost-effective customer support chatbot built using **Ollama** and the **Llama 3.2 3B** model. This project focuses on evaluating different prompting techniques (Zero-Shot vs. One-Shot) for e-commerce support scenarios.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 - **Data Privacy**: All processing happens locally; no customer data ever leaves your machine.
 - **Cost Effective**: utilizes open-source models with zero API inference costs.
 - **Prompt Engineering**: comparisons between Zero-Shot and One-Shot prompting strategies.
@@ -12,7 +12,7 @@ A private, secure, and cost-effective customer support chatbot built using **Oll
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 - **Ollama**: Local LLM runner.
 - **Llama 3.2 3B**: Lightweight, high-performance language model.
 - **Python 3.x**: Scripting and automation.
@@ -20,14 +20,14 @@ A private, secure, and cost-effective customer support chatbot built using **Oll
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 - **Ollama** installed (Download from [ollama.com](https://ollama.com/)).
 - **Llama 3.2 3B** model pulled.
 - **Python 3.8+** installed.
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Pull the Model
 Open your terminal and run:
@@ -51,7 +51,7 @@ pip install requests datasets
 
 ---
 
-## 🧪 Testing the Connection
+## Testing the Connection
 Before running the full evaluation, verify that Ollama is responding correctly using the provided test script:
 
 ```bash
@@ -61,7 +61,7 @@ This script checks if the Ollama API is reachable and if the `llama3.2:3b` model
 
 ---
 
-## 🏃 How to Run
+## How to Run
 To run the automated evaluation script:
 ```bash
 python chatbot.py
@@ -70,7 +70,7 @@ This will process 20 e-commerce queries and save the responses to `eval/results.
 
 ---
 
-## 📊 Evaluation Results Summary
+## Evaluation Results Summary
 Based on our comparison between **Zero-Shot** and **One-Shot** prompting:
 
 | Prompting Method | Avg Relevance | Avg Coherence | Avg Helpfulness |
@@ -83,7 +83,7 @@ Based on our comparison between **Zero-Shot** and **One-Shot** prompting:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 - `chatbot.py`: Main script to interact with the Ollama API.
 - `test.py`: Quick connection test script.
 - `prompts/`: Directory containing `.txt` files for different prompting strategies.

@@ -75,8 +75,8 @@ Based on our comparison between **Zero-Shot** and **One-Shot** prompting:
 
 | Prompting Method | Avg Relevance | Avg Coherence | Avg Helpfulness |
 |------------------|---------------|---------------|-----------------|
-| **Zero-Shot**    | 5.0           | 5.0           | 5.0             |
-| **One-Shot**     | 4.6           | 5.0           | 4.3             |
+| **Zero-Shot**    | 4.85          | 5.0           | 4.65            |
+| **One-Shot**     | 4.85          | 4.95          | 4.0             |
 
 > [!NOTE]
 > Zero-Shot prompting proved surprisingly robust for general e-commerce tasks, while One-Shot sometimes introduced unnecessary caution or disclaimers.

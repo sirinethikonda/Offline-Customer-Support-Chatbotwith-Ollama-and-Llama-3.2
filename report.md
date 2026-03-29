@@ -16,8 +16,8 @@ This report evaluates the performance of a local LLM (**Llama 3.2 3B**) for cust
 ### Quantitative Summary
 | Prompting Method | Avg Relevance | Avg Coherence | Avg Helpfulness |
 |------------------|---------------|---------------|-----------------|
-| **Zero-Shot**    | 5.0           | 5.0           | 5.0             |
-| **One-Shot**     | 4.6           | 5.0           | 4.3             |
+| **Zero-Shot**    | 4.85          | 5.0           | 4.65            |
+| **One-Shot**     | 4.85          | 4.95          | 4.0             |
 
 ### Qualitative Observations
 - **Zero-Shot**: Surprisingly consistent and helpful. The model relied on its general training to provide standard support procedures (e.g., "clear cache", "check order history").
